@@ -40,7 +40,7 @@ module.exports = function (sequelize, DataTypes) {
                 state: "Texas",
                 code: "78702",
                 Country: "USA",
-                long: -97.740440,
+                lng: -97.740440,
                 lat: 30.267680,
             });
             Location.create({
@@ -50,7 +50,7 @@ module.exports = function (sequelize, DataTypes) {
                 state: "Texas",
                 code: "78702",
                 Country: "USA",
-                long: -97.749730,
+                lng: -97.749730,
                 lat: 30.270050,
             });
             Location.create({
@@ -60,7 +60,7 @@ module.exports = function (sequelize, DataTypes) {
                 state: "Texas",
                 code: "78759",
                 Country: "USA",
-                long: -97.791230,
+                lng: -97.791230,
                 lat: 30.414420,
             });
         };
